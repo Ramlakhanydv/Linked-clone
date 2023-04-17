@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!------navbar start------------->
+    <nav class="nav-bar">
+        <div class="nav-left">
+            <a href="index.html"><img src="IMG/logo.png"></a>
+
+            <div class="search-box">
+                <img src="IMG/search.png">
+                <input type="search" placeholder=" search">
+            </div>
+
+        </div>
+        <div class="nav-center">
+            <ul>
+                <li><a href="#"><img src="IMG/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="IMG/network.png"><span>MY Network</span></a></li>
+                <li><a href="#"><img src="IMG/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="IMG/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="IMG/notification.png"><span>Notifications</span></a></li>
+            </ul>
+            
+        </div>
+        <div class="nav-right">
+            <div class="online">
+                <img src="IMG/user-1.png" onclick="toggleMenu()">
+            </div>
+            
+            
+        </div>
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="IMG/user-1.png">
+                    <div>
+                        <h3>Ryan Walton</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="IMG/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="IMG/setting.png">
+                    <p>Settings</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="IMG/help.png">
+                    <p>Help</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="IMG/display.png">
+                    <p>Display</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="IMG/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!---------------navbar end------------->
+
+
+    <!----------main area--------------------->
+
+
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="IMG/cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="IMG/user-1.png" class="profile-pic">
+                    <h1>Ryan Walton</h1>
+                    <b>Web Developer at Microsoft | Former developer at DataStack and Intern ar Oracle</b>
+                    <p>San Francisco, United States &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="IMG/user-5.png">
+                        <span>1 mutual connection: Orlando Diggs</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="IMG/connect.png">Connect</a>
+                        <a href="#"><img src="IMG/chat.png">Message</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>
+                   About 
+                </h2>
+                <p>
+                    The success of every website depends on search engine optimisation and digital marketing strategy.
+                    The success of every website depends on search engine optimisation and digital marketing strategy.
+                </p> 
+                <a href="#" class="see-more-link">See more ...</a>
+            </div>
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="IMG/microsoft.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2020 - Present &middot; 2.5 years</b>
+                        <p>Computer programming is the process of performing a paricular computation, usually by designing and building and executable computer program.</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="IMG/slack.png">
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <b>Slack &middot; Full-time</b>
+                        <b>june 2018- june 2020 &middot; 2 years</b>
+                        <p>Computer programming is the process of performing a paricular computation, usually by designing and building and executable computer program.</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="IMG/google.png">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Google Inc &middot; Full-time</b>
+                        <b>Sept 2015 - Sept 2018 &middot; 3 years</b>
+                        <p>Computer programming is the process of performing a paricular computation, usually by designing and building and executable computer program.</p>
+                        
+                    </div>
+                </div>
+
+                <hr>
+                <a href="#" class="experience-link">Show all 5 experiences <img src="IMG/right-arrow.png"></a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img src="IMG/stanford.png">
+                    <div>
+                        <h3>Standard University</h3>
+                        <b>BSEE, Electrical Engineering</b>
+                        <b>2018 - 2022</b>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="IMG/north.png">
+                    <div>
+                        <h3>Northwestern University</h3>
+                        <b>Computer Science</b>
+                        <b>2015 - 2018</b>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="IMG/mit.png">
+                    <div>
+                        <h3>Harvard University</h3>
+                        <b>Senior High School</b>
+                        <b>2005 - 2015</b>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skill-btn">Leadership</a>
+                <a href="#" class="skill-btn">Web Design</a>                    <a href="#" class="skill-btn">Development</a>
+                <a href="#" class="skill-btn">Communication</a>
+                <a href="#" class="skill-btn">UI/UX</a>
+                <a href="#" class="skill-btn">Planning</a>
+                <a href="#" class="skill-btn">Coding</a>
+                <a href="#" class="skill-btn">JavaScript</a>                    <a href="#" class="skill-btn">Python</a>
+                <a href="#" class="skill-btn">Entrepreneurship</a>
+            </div>
+            
+        </div>
+        <div class="profile-sidebar">
+            <div class="sidebar-ad">
+                <small>Ad &middot;</small>
+                <p>Master the 5 principles of web development</p>
+                <div>
+                    <img src="IMG/user-1.png">
+                    <img src="IMG/mi-logo.png">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="IMG/user-3.png">
+                    <div>
+                        <h2>Samuel Tony</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            
+
+                <div class="sidebar-people-row">
+                    <img src="IMG/user-4.png">
+                    <div>
+                        <h2>Benjamin Leo</h2>
+                        <p>Software Engineer at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="IMG/user-5.png">
+                    <div>
+                        <h2>Steve Grag</h2>
+                        <p>Software Engineer at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="IMG/user-2.png">
+                    <div>
+                        <h2>Elis Greg</h2>
+                        <p>Software Engineer at Microsoft</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+    </div>
+    <!-------------------main area end--------------->
+
+
+    <!---------footer-------------->
+
+    <div class="profile-footer">
+        
+            <div>
+                <a href="#">About</a>
+                <a href="#">Accessiblity</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">More</a>
+            </div>
+            <div class="copyright-msg">
+                <img src="IMG/logo.png">
+                <p>Linkedin &#169; 2022. All right reserved</p>
+            </div>
+    </div>
+
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+
+    </script>
+</body>
+</html>
